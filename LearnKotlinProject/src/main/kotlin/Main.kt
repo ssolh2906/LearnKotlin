@@ -1,4 +1,5 @@
 import Play.Collections.MyList
+import Play.Collections.MyMap
 import Play.Introduction.*
 
 fun main() {
@@ -19,4 +20,8 @@ fun main() {
     // List
     val myList = MyList()
     myList.testMyList()
+
+    val myMap = MyMap()
+    myMap.testMyMap()
+
 }
